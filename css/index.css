@@ -3,3 +3,237 @@ body{
     padding: 0;
     box-sizing: border-box;
 }
+/* NAVBAR */
+header{
+    width: 100%;
+}
+.hContent{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    background-color: #fff;
+    box-shadow:  0 1px rgba(136, 136, 136, 0.3);
+    padding: 10px;
+    box-sizing: border-box;
+    z-index: 999;
+}
+.logo_nav{
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.logos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button_lang{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.logo_nav:first-child{
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+.sitelogo{
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+.sitelogo img{
+    width: 50px;
+    height: 52px;
+    cursor: pointer;
+}
+.apps_logo span a{
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+nav {
+    padding-left: 50px;
+    box-sizing: border-box;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul li{
+    padding-left: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    text-transform: capitalize;
+    font-weight: 500;
+    transition: all .3s;
+}
+nav ul li:hover a{
+    color: hotpink;
+}
+.down_arrow{
+    display: inline-block;
+    position: relative;
+    top: 2px;
+}
+.nft_uppercase{
+    text-transform: uppercase;
+}
+.button_lang div{
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+.button_lang select{
+    margin-left: 10px;
+    width: 50px;
+    height: 40px;
+    border: none;
+    background-color: transparent;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.button_lang select option {
+    border: none !important;
+    background-color: transparent !important;
+}
+.none_block{
+    position: relative;
+    left: 190px;
+    background-color: #fff;
+    width: 150px;
+    height: 100px;
+    top: -10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 5px;
+    display: none;
+}
+.none_block li{
+    margin-top: 10px;
+}
+.none_block li a{
+   text-decoration: none;
+   color: black;
+   transition: all 0.3s;
+}
+.none_block li:hover a{
+    padding-top: 10px;
+    color: hotpink;
+}
+.market_placev:hover ul.none_block{
+    display: block 
+}
+.button_header button{
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius:10px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.bag_icon span a{
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+}
+/* navbar */
+
+/* header section */
+.header_item{
+    width: 100%;
+}
+.header_item {
+    width: 100%;
+    position: relative;
+    height: 710px;
+    background: url("/images/r606-back-main-min.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.flex_content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+.text_content h1 span{
+    color: #2e293d;
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.5;
+    display: block;
+}
+.text_content_p{
+    text-transform: capitalize;
+    font-size: 20px;
+    color: #2e293d;
+
+}
+.text_content_btn{
+    margin-top: 20px;
+}
+.btn{
+    margin-left: 15px;
+    text-align: center;
+    display: inline-block;
+    width: 200px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 20px;
+    text-transform: capitalize;
+    font-size: 16px;
+    border:none;
+    outline: none;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.get-started{
+    background-color: #2e293d;
+    color: #fff;
+}
+.get-started:hover{
+    background-color: rgba(46, 41, 61, 0.7)
+}
+.explore{
+    background-color: rgb(255, 0, 140);
+    color: #fff;
+}
+.explore:hover {
+    background-color:  rgba(0, 0, 0, 0.2);
+    color: black;
+}
+.slider{
+    width: 480px;
+    height: 539px;
+    background: url('/images/1494-collaborate-with-us-4-1-1-1-min-169355969506.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.chat_with_ai{
+    position: fixed;
+    left: 20px;
+    bottom:20px;
+    z-index: 999;
+}
+.chat{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}

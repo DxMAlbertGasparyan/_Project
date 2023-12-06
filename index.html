@@ -3,11 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/media.css">
     <title>All-In-One NFT Platform | Buy and Sell NFTs with ftNFT</title>
     <link rel="icon" type="img/png" href="./images/favicon.png">
 </head>
 <body>
+    <div class="chat_with_ai">
+        <button>chat with ai</button>
+    </div>
+    <div class="chat"><button> <span><ion-icon name="chatbubble-outline"></ion-icon></span>chat</button></div>
     <div id="root">
         <!-- Header Starts -->
         <header>
@@ -15,7 +21,7 @@
                 <div class="logo_nav">
                     <div class="logos">
                         <div class="apps_logo">
-                            <span><ion-icon name="apps"></ion-icon></span>
+                            <span><a href="#"><ion-icon name="apps"></ion-icon></a></span>
                         </div>
                         <div class="sitelogo">
                             <img src="./images/logo.png" alt="">
@@ -23,7 +29,7 @@
                     </div>
                     <nav>
                         <ul>
-                            <li>
+                            <li class="market_place">
                                 <a href="#">marketplace <span class="down_arrow"><ion-icon name="caret-down"></ion-icon></span></a>
                             </li>
                             <li>
@@ -46,24 +52,39 @@
                 </div>
                 <div class="button_lang">
                     <div class="button_header"><button>connect to fastex exchange</button></div>
-                    <div class="bag_icon"><span><ion-icon name="bag-handle-outline"></ion-icon></span></div>
-                    <div class="languages"><a href="#">en <span class="down_arrow"><ion-icon name="caret-down"></ion-icon></span></a></div>
+                    <div class="bag_icon"><span><a href="#"><ion-icon name="bag-handle-outline"></ion-icon></a></span></div>
+                    <select name="languages" id="languages">
+                        <option value="en">en</option>
+                        <option value="en">ar</option>
+                        <option value="en">zh</option>
+                        <option value="en">in</option>
+                    </select>
                 </div>
             </div>
             <section class="header_item">
-                <div class="text_content">
-                    <h1>single platfrm to explore, buy and sell <span>NFTs</span></h1>
-                    <p>an <span>NFTs</span> platform to trade, collect and transform art int gitital collectibles</p>
-                    <div class="text_content_btn">
-                        <button class="get-started btn">get started</button>
-                        <button class="explore btn">explore</button>
+                <!-- <img src="./images/r606-back-main-min.png" alt=""> -->
+                <div class="flex_content">
+                    <div class="text_content">
+                        <h1>
+                            <span>single platfrm to</span> 
+                            <span>explore, buy and sell</span> 
+                            <span>NFTs</span>
+                        </h1>
+                        <p class="text_content_p">an <span>NFTs</span> platform to trade, collect and transform art int gitital collectibles</p>
+                        <div class="text_content_btn">
+                            <button class="get-started btn">get started</button>
+                            <button class="explore btn">explore</button>
+                        </div>
+                    </div>
+                    <div class="slider">
+                        <!-- blokin width height tal petqa te che? -->
                     </div>
                 </div>
-                <div class="slider">
-                    <!-- blokin width height tal petqa te che? -->
-                    SLIDER
-                </div>
             </section>
+            <ul class="none_block">
+                <li><a href="#">All NFTs</a></li>
+                <li><a href="#">ANKEYE Collection</a></li>
+            </ul>
         </header>
         <!-- Header ends -->
         <main>
