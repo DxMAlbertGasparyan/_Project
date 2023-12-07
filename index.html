@@ -11,9 +11,16 @@
 </head>
 <body>
     <div class="chat_with_ai">
-        <button>chat with ai</button>
+        <button> 
+            <svg width="44" height="44" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M35.5 26.1a7.6 7.6 0 1 0 0-15.2 7.6 7.6 0 0 0 0 15.2zM8.5 26.1a7.6 7.6 0 1 0 0-15.2 7.6 7.6 0 0 0 0 15.2z" fill="#FBFBFC" stroke="#332C49" stroke-width="1.8"></path><path d="M22 37.1c8.34 0 15.1-6.76 15.1-15.1S30.34 6.9 22 6.9 6.9 13.66 6.9 22 13.66 37.1 22 37.1z" fill="#FBFBFC" stroke="#332C49" stroke-width="1.8"></path><path d="M19.637 23.338c-.241.52-.586.927-1.034 1.221-.448.294-.983.441-1.604.441-.612 0-1.146-.147-1.603-.44a2.863 2.863 0 0 1-1.035-1.222c-.24-.528-.361-1.145-.361-1.85 0-.714.12-1.33.361-1.851.242-.521.587-.924 1.035-1.209.457-.285.991-.428 1.603-.428.621 0 1.156.143 1.604.428.448.285.793.688 1.034 1.209.242.52.363 1.137.363 1.85-.001.706-.121 1.323-.363 1.851zM29.637 23.338c-.241.52-.586.927-1.034 1.221-.448.294-.983.441-1.604.441-.612 0-1.146-.147-1.603-.44a2.863 2.863 0 0 1-1.035-1.222c-.24-.528-.361-1.145-.361-1.85 0-.714.12-1.33.361-1.851.242-.521.587-.924 1.035-1.209.457-.285.991-.428 1.603-.428.621 0 1.156.143 1.604.428.448.285.793.688 1.034 1.209.242.52.363 1.137.363 1.85-.001.706-.121 1.323-.363 1.851z" fill="#332C49"></path></svg>
+            <div>chat with ai</div>
+        </button>
     </div>
-    <div class="chat"><button> <span><ion-icon name="chatbubble-outline"></ion-icon></span>chat</button></div>
+    <div class="chat">
+        <button> 
+            <span><ion-icon name="chatbubble-outline"></ion-icon></span>chat
+        </button>
+        </div>
     <div id="root">
         <!-- Header Starts -->
         <header>
@@ -31,6 +38,10 @@
                         <ul>
                             <li class="market_place">
                                 <a href="#">marketplace <span class="down_arrow"><ion-icon name="caret-down"></ion-icon></span></a>
+                                <ul class="none_block">
+                                    <li><a href="#">All NFTs</a></li>
+                                    <li><a href="#">ANKEYE Collection</a></li>
+                                </ul>
                             </li>
                             <li>
                                 <a href="#">rankings</a>
@@ -44,8 +55,14 @@
                             <li>
                                 <a href="#">event booking</a>
                             </li>
-                            <li>
+                            <li class="resources">
                                 <a href="#">resources <span class="down_arrow"><ion-icon name="caret-down"></ion-icon></span></a>
+                                <ul class="none_block second_none_block">
+                                    <li><a href="#">Learn</a></li>
+                                    <li><a href="#">Blog</a></li>
+                                    <li><a href="#">About Us</a></li>
+                                    <li><a href="#">Help Center</a></li>
+                                </ul>
                             </li>
                         </ul>
                     </nav>
@@ -81,10 +98,6 @@
                     </div>
                 </div>
             </section>
-            <ul class="none_block">
-                <li><a href="#">All NFTs</a></li>
-                <li><a href="#">ANKEYE Collection</a></li>
-            </ul>
         </header>
         <!-- Header ends -->
         <main>
@@ -92,85 +105,126 @@
                 <h3>featured collections</h3>
                 <div class="items_container">
                     <div class="item">
-                        <img src="./images/x39ziHUqPbngSsMldAuyOo2CUYyfhxfirgHPHXK6.webp" alt="">
-                        <div class="bordered_img">
-                            <img src="./images/XlDaUsynpYf66BdMb3ev9yMQ0K4AoFQKDEj72lPN.webp" alt="">
+                        <div class="main_img">
+                            <img  src="./images/x39ziHUqPbngSsMldAuyOo2CUYyfhxfirgHPHXK6.webp" alt="">
+                            <div class="bordered_img">
+                                <img src="./images/XlDaUsynpYf66BdMb3ev9yMQ0K4AoFQKDEj72lPN.webp" alt="">
+                            </div>
+                        </div>
+                        <div class="text">
+                            <h5>Arabic Ruq'ah Script Class</h5>
+                            <p>50 NFT(s)</p>
                         </div>
                     </div>
                     <div class="item">
-                        <img src="./images/1OINFBEksdTTP2WOCxdsiH65SR6zLDRCy3l1pVCH.webp" alt="">
-                        <div class="bordered_img">
-                            <img src="./images/Khw1SX4aijpkKpJq6pyQdwxzbMqiKDIYFriJEjY9.webp" alt="">
+                        <div class="main_img">
+                            <img src="./images/1OINFBEksdTTP2WOCxdsiH65SR6zLDRCy3l1pVCH.webp" alt="">
+                            <div class="bordered_img">
+                                <img src="./images/Khw1SX4aijpkKpJq6pyQdwxzbMqiKDIYFriJEjY9.webp" alt="">
+                            </div>
+                        </div>
+                        <div class="text">
+                            <h5>RenAlssance</h5>
+                            <p>7NFT(s)</p>
                         </div>
                     </div>
                     <div class="item">
-                        <img src="./images/jAssMBfnu18ZqhfcIRsWDcDnIUbWYPRC6JxWeOYK.webp" alt="">
-                        <div class="bordered_img">
-                            <img src="./images/YG6GxTtTyqsHGjpqxkulDXAgAo97iGnmz4vHQxB6.webp" alt="">
+                        <div class="main_img">
+                            <img src="./images/jAssMBfnu18ZqhfcIRsWDcDnIUbWYPRC6JxWeOYK.webp" alt="">
+                            <div class="bordered_img">
+                                <img src="./images/YG6GxTtTyqsHGjpqxkulDXAgAo97iGnmz4vHQxB6.webp" alt="">
+                            </div>
+                        </div>
+                        <div class="text">
+                            <h5>ACosmosis</h5>
+                            <p>3 NFT(s)</p>
                         </div>
                     </div>
                     <div class="item">
-                        <img src="./images/5IBWyQzvhMhcyvuoFQArEbbk9HRs8FteQvPqrZlK.webp" alt="">
-                        <div class="bordered_img">
-                            <img src="./images/ll85efr51x3t7qEDcm3YrC8yReTBPGANtHvOdEB0.webp" alt="">
+                        <div class="main_img">
+                            <img src="./images/5IBWyQzvhMhcyvuoFQArEbbk9HRs8FteQvPqrZlK.webp" alt="">
+                            <div class="bordered_img">
+                                <img src="./images/ll85efr51x3t7qEDcm3YrC8yReTBPGANtHvOdEB0.webp" alt="">
+                            </div>
+                        </div>
+                        <div class="text">
+                            <h5>The Force of The Depth</h5>
+                            <p>4 NFT(s)</p>
                         </div>
                     </div>
                     <div class="item">
-                        <img src="./images/xBleISHZEUuudcMQtiIklxfMie2yMKicgdQY7JiG.webp" alt="">
-                        <div class="bordered_img">
-                            <img src="./images/HMWWAcKkuUVxYrU7M7Pwl7iWGIJghy9wgCYrS4Eb.webp" alt="">
+                        <div class="main_img">
+                            <img src="./images/xBleISHZEUuudcMQtiIklxfMie2yMKicgdQY7JiG.webp" alt="">
+                            <div class="bordered_img">
+                                <img src="./images/HMWWAcKkuUVxYrU7M7Pwl7iWGIJghy9wgCYrS4Eb.webp" alt="">
+                            </div>
+                        </div>
+                        <div class="text">
+                            <h5>ART&MONEY</h5>
+                            <p>50 NFT(s)</p>
                         </div>
                     </div>
                 </div>
             </section>
             <section class="nft_artist">
-                <img src="./images/r54-nft-artist-min.png" style="width: 100%;" alt="">
-                <div class="nft_artist_items">
-                    <h2>become an <span>nft</span> artist</h2>
-                    <p>
-                        <span>We’ve got all the tools to get you started with your own NFT collection. Whether a newbie or an experienced user, you can import your NFTs and list them on our platform.</span>
-                    </p>
-                    <div class="artist_button">
-                        <button class="artist_btn">learn more</button>
+                <div class="artist_img">
+                    <img src="./images/r54-nft-artist-min.png" alt="">
+                    <div class="nft_artist_items">
+                        <h2>become an <span>nft</span> <br> artist</h2>
+                        <div class="text_artist">
+                            <p>We’ve got all the tools to get you started with your</p>
+                            <p>own NFT collection. Whether a newbie or an</p>
+                            <p>experienced user, you can import your NFTs and list</p>
+                            <p>them on our platform.</p>
+                        </div>
+                        <div class="artist_button">
+                            <button class="artist_btn">learn more</button>
+                        </div>
                     </div>
                 </div>
             </section>
             <section class="experiience">
                 <div class="experience_heading">
-                    <h2>experience different features with ft<span>nft</span></h2>
+                    <h2>
+                        experience different features <br>
+                        with <span class="small">ft</span><span>nft</span>
+                    </h2>
                 </div>
                 <div class="flex_container">
                     <div class="flexet_blocks">
-                        <img src="./images/70-ftnft-drops-min.png" alt="">
+                        <img  class="first_img" src="./images/70-ftnft-drops-min.png" alt="">
                         <h4>ft<span>nft</span> drops</h4>
-                        <p>participate in blockchain-based RNG-regulated <span>nft</span> drops and win pizes.</p>
+                        <p>participate in blockchain-based RNG-regulated <br><span>nft</span> drops and win pizes.</p>
                     </div>
                     <div class="flexet_blocks">
-                        <img src="./images/70-ftnft-drops-min.png" alt="">
-                        <h4>ft<span>nft</span> drops</h4>
-                        <p>participate in blockchain-based RNG-regulated <span>nft</span> drops and win pizes.</p>
+                        <img class="second_img" src="./images/12039645674-nft-shop-min.png" alt="">
+                        <h4>First-Ever Phygital <span>nft</span> Stores</h4>
+                        <p>The first phygital NFT stores to take your digital <br> art home and make NFTs more accessible.</p>
                     </div>
                     <div class="flexet_blocks">
-                        <img src="./images/70-ftnft-drops-min.png" alt="">
-                        <h4>ft<span>nft</span> drops</h4>
-                        <p>participate in blockchain-based RNG-regulated <span>nft</span> drops and win pizes.</p>
+                        <img  class="third_img" src="./images/78-eco-min.png" alt="">
+                        <h4>Operating within an Ecosystem</h4>
+                        <p>Automatically get access to the range of <br> services within the Fastex Ecosystem.</p>
                     </div>
                 </div>
             </section>
             <section class="buy_nft">
                 <div class="background-container">
                     <img src="./images/002880112466-buy-nft-min-4.png" style="width: 100%;" alt="">
-                </div>
-                <div class="buy_nft_content">
-                    <h2>buy <span>nft</span></h2>
-                    <p>buy your <span>nft</span>s within several clicks. we've simplified the process -- just browse trough your favorite collections to find and purchase your digital assests.</p>
-                    <button class="buy_nft_button">buy <span>nft</span>s</button>
+                    <div class="buy_nft_content">
+                        <h2>buy <span>nft</span></h2>
+                        <p>buy your <span>nft</span>s within several clicks. We've <br> simplified the process -- just browse trough <br> your favorite collections to find and purchase <br> your digital assests.</p>
+                        <button class="buy_nft_button">buy <span>nft</span>s</button>
+                    </div>
                 </div>
             </section>
             <section class="get_started_nft">
                 <div class="top_parent">
                     <div class="get_started_nft_child">
-                        <h2>get started with ft<span>nft</span></h2>
+                        <h2>
+                            <span>get started</span><br>
+                            <span>with ftnft</span>
+                        </h2>
                         <button class="get_started_nft_btn">create your account</button>
                     </div>
                     <div class="second_child">
@@ -180,12 +234,12 @@
                             <p>Click either on the “Register Now” or the “Create your account now" button. Register on the Fastex Exchange website. Once registered, log in to your account, and click on the verification button to continue.</p>
                         </div>
                         <div class="second_child_items">
-                            <img src="./images/89-user-1677762964267.png" alt="">
+                            <img src="./images/93-verify (1).png"" alt="">
                             <h4>Register and Verify</h4>
                             <p>Click either on the “Register Now” or the “Create your account now" button. Register on the Fastex Exchange website. Once registered, log in to your account, and click on the verification button to continue.</p>
                         </div>
                         <div class="second_child_items">
-                            <img src="./images/89-user-1677762964267.png" alt="">
+                            <img src="./images/00969697-wallet.png" alt="">
                             <h4>Register and Verify</h4>
                             <p>Click either on the “Register Now” or the “Create your account now" button. Register on the Fastex Exchange website. Once registered, log in to your account, and click on the verification button to continue.</p>
                         </div>
@@ -237,7 +291,7 @@
                     </ul>
                 </div>
                 <div class="stats_list">
-                    <h5>rankings</h5>
+                    <h5>status</h5>
                     <ul>
                         <li>rankings</li>
                     </ul>

@@ -105,14 +105,13 @@ nav ul li:hover a{
     background-color: transparent !important;
 }
 .none_block{
-    position: relative;
-    left: 190px;
+    position: absolute;
+    left: 24px;
     background-color: #fff;
     width: 150px;
-    height: 100px;
-    top: -10px;
+    padding: 10px 0px;
+    top: 41px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -122,18 +121,25 @@ nav ul li:hover a{
 }
 .none_block li{
     margin-top: 10px;
+    padding: 0;
 }
 .none_block li a{
    text-decoration: none;
-   color: black;
+   color: black !important;
    transition: all 0.3s;
+   padding: 0;
+   text-align: center;
 }
 .none_block li:hover a{
     padding-top: 10px;
-    color: hotpink;
+    color: hotpink !important;
 }
-.market_placev:hover ul.none_block{
-    display: block 
+.market_place {
+    position: relative;
+    padding: 12px 0;
+}
+.market_place:hover ul.none_block, ul.none_block:hover {
+    display: flex;
 }
 .button_header button{
     display: inline-block;
@@ -154,13 +160,11 @@ nav ul li:hover a{
 /* navbar */
 
 /* header section */
-.header_item{
-    width: 100%;
-}
+
 .header_item {
     width: 100%;
     position: relative;
-    height: 710px;
+    height: 923px;
     background: url("/images/r606-back-main-min.png");
     background-size: cover;
     background-repeat: no-repeat;
@@ -236,4 +240,457 @@ nav ul li:hover a{
     position: fixed;
     bottom: 20px;
     right: 20px;
+    z-index: 999;
+}
+.resources{
+    padding: 12px;
+    position: relative;
+}
+.second_none_block{
+    position: absolute;
+    
+}
+.second_none_block{
+    position: absolute;
+    
+}
+.resources:hover .second_none_block{
+    display: flex;
+}
+main{
+    margin-top: 30px;
+}
+.featured_collections h3{
+    font-size: 24px;
+    text-transform: capitalize;
+}
+.featured_collections{
+    max-width: 1600px;
+    margin: auto;
+}
+.items_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+.main_img{
+    position: relative;
+    border-radius: 10px;
+}
+.main_img img{
+    border-radius: 20px;
+}
+.bordered_img{
+    position: absolute;
+    left: 7px;
+    bottom: -10px;
+    padding: 3px 3px 0px 3px;
+    background-color: white;
+    border-radius: 50%;
+    outline: 1px solid rgba(0, 0, 0, 0.1);
+}
+.item{
+    padding: 15px;
+    box-sizing: border-box;
+    outline: 1px solid rgba(128, 128, 128, 0.2);
+    border-radius: 20px;
+    cursor: pointer;
+}
+.nft_artist{
+    margin-top: 200px;
+    position: relative;
+}
+.bordered_img img{
+    border-radius: 50%;
+}
+.text{
+    margin-top: 15px;
+}
+.text h5{
+    font-size: 16px;
+}
+.artist_img img{
+    width: 100%;
+}
+.nft_artist_items{
+    position: absolute;
+    top: 30%;
+    left: 8%;
+}
+.nft_artist_items h2{
+    font-size: 50px;
+    color: white;
+    text-transform: capitalize;
+}
+.nft_artist_items span{
+    text-transform: uppercase;
+    line-height: 1.5;
+    font-weight: 700;
+}
+
+.text_artist{
+    padding-top: 20px;
+}
+.text_artist p{
+    color: white;
+    line-height: 1.5;
+    font-size: 24px;
+
+}
+.artist_button{
+    padding-top: 20px;
+    width: 200px;
+}
+.artist_button button{
+    width: 100%;
+    text-align: center;
+    color: white;
+    display: inline-block;
+    padding: 20px 0px;
+    background-color: rgb(236, 0, 139);
+    cursor: pointer;
+    border: none;
+    outline: none;
+    text-transform: capitalize;
+    font-size: 18px;
+    transition: all .3s;
+    border-radius: 30px;
+    font-weight: 700;
+}
+.artist_button button:hover{
+    background-color: rgba(236, 0, 139,0.8);
+}
+
+/* experiience */
+.experiience{
+    margin-top: 150px;
+    width: 100%;
+}
+.experience_heading h2{
+    text-align: center;
+    color: #37546D;
+    text-transform: capitalize;
+    line-height: 1.5;
+    font-size: 50px;
+    font-weight: 700;
+}
+.experience_heading h2 span{
+    text-transform: uppercase;
+}
+.small{
+    text-transform: lowercase !important; 
+}
+.flex_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    gap: 20px;
+    max-width: 1600px;
+    margin: auto;
+    margin-top: 50px;
+}
+.flexet_blocks{
+    width: 33.3%;
+    border-radius: 20px;
+    background-color: rgba(128, 128, 128, 0.1);;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.flexet_blocks img{
+    padding-top: 100px;
+}
+.first_img{
+    width: 180px;
+    height: 180px;
+}
+.second_img{
+    width: 180px;
+    height: 180px;
+}
+.third_img{
+    width: 180px;
+    height: 180px;
+}
+.flexet_blocks h4{
+    padding-top:80px;
+    font-size: 25px;
+    color: #37546D;
+    text-transform: capitalize;
+}
+.flexet_blocks p{
+    padding-top:40px;
+    padding-bottom:40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.3;
+    color: #2e293d;
+    font-weight: 500;
+}
+/* buy nft */
+
+.buy_nft{
+    margin-top: 200px;
+    
+}
+.background-container{
+    max-width: 1600px;
+    margin: auto;
+    position: relative;
+}
+.buy_nft_content{
+    position: absolute;
+    top: 30%;
+    left: 5%;
+}
+.buy_nft_content h2{
+    font-size: 47.36px;
+    text-transform: capitalize;
+    color: white;
+    font-weight: 700;
+}
+.buy_nft_content h2 span{
+    text-transform: uppercase;
+}
+.buy_nft_content p{
+    padding-top: 10px;
+    line-height: 1.5;
+    color: white;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+.buy_nft_content button{
+    display: inline-block;
+    text-align: center;
+    margin-top: 10px;
+    width: 200px;
+    background-color: rgb(46, 41, 61);
+    color: white;
+    padding: 20px 0px;
+    font-size: 18px;
+    text-transform: capitalize;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 30px;
+    font-weight: 500;
+    transition: all .3s;
+}
+.buy_nft_content button:hover{
+    background-color: rgba(46, 41, 61,0.7);
+}
+/* get_started_nft */
+
+.get_started_nft{
+    width: 100%;
+    background-color: rgba(192,192,192, 0.2);
+    height: 584px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top_parent{
+    max-width: 1600px;
+    margin:auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.get_started_nft_child{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.get_started_nft_child h2{
+    color:rgb(46, 41, 61) ;
+    font-size: 47.36px;
+
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.get_started_nft_btn{
+    width: 200px;
+    display: inline-block;
+    background-color: rgb(20, 17, 30);
+    color: white;
+    padding: 15px 0px;
+    border-radius: 30px;
+    text-transform: capitalize;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    transition: all .3s;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.get_started_nft_btn:hover{
+    background-color: rgba(20, 17, 30,0.7);;
+}
+.second_child{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    gap: 20px;
+}
+.second_child_items{
+    width: 30%;
+    border-radius: 20px;
+    background-color: #fff;
+    height: 410px;
+    padding: 20px;
+}
+.second_child_items h4{
+    margin-top: 20px;
+    font-size: 20px;
+    color: rgb(17, 15, 22);
+    font-weight: 700;
+}
+.second_child_items p{
+    margin-top: 15px;
+    line-height: 1.5;
+    font-size: 16px;
+}
+.second_child_items img{
+    width: 60px;
+    height: 60px;
+}
+.go_to_guides{
+    margin-top: 100px;
+}
+.guide_heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.guide_heading h2{
+    font-size: 47.36px;
+    color:rgb(46, 41, 61);
+    text-transform: capitalize;
+}
+.guide_items{
+    padding-top: 100px;
+    max-width: 1600px;
+    margin:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    box-sizing: border-box;
+}
+.item_images{
+    width: 33.3%;
+    height: 507px;
+}
+.item_images img{
+    width: 100%;
+}
+
+.chat_with_ai button{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 25px;
+    gap: 16px;
+    background-color: #2e293d;
+    color: white;
+    text-transform: capitalize;
+    font-size: 18px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.chat button{
+    padding: 10px 25px;
+    border-radius: 30px;
+    border: none;
+    font-weight: 600;
+    font-size: 18px;
+    background-color: rgb(255, 0, 140);
+    cursor: pointer;
+}
+/* footer */
+footer{
+    background-color: rgba(192,192,192, 0.2);
+    margin-top: 200px;
+}
+.footer{
+    max-width: 1600px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 40px;
+}
+.footer_privacy_policy{
+    max-width: 1600px;
+    margin: auto;
+}
+.footer{
+    line-height: 1.5;
+    text-transform: capitalize;
+    font-size: 16px;
+    box-shadow: 0 1px rgba(136, 136, 136, 0.3);
+    padding-bottom: 10px;
+}
+.footer ul li{
+    transition: all .3s;
+    font-weight: normal;
+}
+.footer ul li:hover{
+    color: hotpink;
+    cursor: pointer;
+}
+.items_last{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.rights a{
+    text-decoration: none;
+    color: black;
+    transition: all .3s;
+    line-height: 1.5;
+}
+.rights a:hover{
+    color: hotpink;
+}
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.links a{
+    padding-left: 30px;
+    text-decoration: none;
+    color: black;
+    transition: all .3s;
+}
+.links a:hover{
+    color: hotpink;
+}
+.social{
+    padding-left: 20px;
+    font-size: 20px;
+    text-decoration: none;
+}
+.social a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    transition: all .3s;
+}
+.social a:hover{
+    color: rgba(0, 0, 0, 0.7);
 }
