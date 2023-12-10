@@ -1,5 +1,166 @@
 @media screen and (max-width:1200px) {
+    /* HEADER */
     nav{
         display: none;
+    }
+    .burger_menu{
+        display: block;
+        width: 100%;
+    }
+    .button_header button{
+        font-size: 16px;
+        word-wrap: none;
+    }
+    .button_lang{
+        width: 80%;
+        
+    }
+    .logo_nav{
+        width: 20%;
+    }
+    /* HEADER */
+    /* MAIN */
+    .flex_content{
+        flex-direction: column;
+    }
+    .text_content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 150px;
+    }
+    .text_content h1 span{
+        font-size: 40px;
+    }
+    .text_content p{
+        font-size: 25px;
+        margin-top: 25px;
+    }
+    .text_content_btn{
+        display: flex;
+        justify-content: center;
+        margin-top: 60px;
+    }
+    .header_item{
+        height: 100%;
+    }
+    .slider{
+        margin-top: 60px;
+    }
+    main{
+        margin-top: 60px;
+    }
+    .items_container{
+        overflow: auto;
+    }
+    .artist_img{
+        height: 100%;
+    }
+
+    .artist_img img{
+        width: 100%;
+        height: 100vh;
+        background-clip: content-box;
+    }
+    .nft_artist_items h2{
+        font-size: 35px;
+    }
+    .text_artist p{ 
+        font-size: 18px;
+    }
+    .flex_container{
+        flex-direction: column;
+        
+    }
+    .flexet_blocks{
+        width: 95%;
+    }
+    .buy_nft_content{
+        top: 15%;
+    }
+    .buy_nft_content h2{
+        font-size: 30px;
+    }
+    .buy_nft_content p{
+        font-size: 18px;
+    }
+    .top_parent{
+        flex-direction: column;
+    }
+    .get_started_nft_child{
+        width: 100%;
+        padding-top: 30px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        box-sizing: border-box;
+    }
+    .second_child{
+        flex-direction: column;
+        justify-content: space-between;
+
+    }
+    .second_child{
+        margin-top: 10px;
+        width: 90%
+    }
+    .second_child_items{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    .get_started_nft{
+        height: 1610px;
+    }
+    .go_to_guides{
+        margin-top: 200px;
+    }
+    .guide_items{
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .item_images{
+        width: 100%;
+        height: 33.3%;
+    }
+    .footer{
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+
+    }
+    .marketplace_list{
+        align-self: flex-start;
+    }
+    .fl_lists{
+        flex-wrap: wrap;
+    }
+    .logo_and_text{
+        align-self:center;
+    }
+    .marketplace_list{
+        width: 50%;
+        margin-top: 50px;
+    }
+    .resources_list{
+        width: 50%;
+        margin-top: 50px;
+    }
+    .conpany_list{
+        width: 50%;
+        margin-top: 50px;
+    }
+    .stats_list{
+        width: 50%;
+        margin-top: 50px;
+    }
+    .items_last{
+        flex-direction: column;
+    }
+    .rights{
+        text-align: center;
+        margin-top: 30px;
     }
 }

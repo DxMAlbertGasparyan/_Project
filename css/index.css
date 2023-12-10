@@ -74,7 +74,7 @@ nav ul li a{
     font-weight: 500;
     transition: all .3s;
 }
-nav ul li:hover a{
+nav ul li:hover>a{
     color: hotpink;
 }
 .down_arrow{
@@ -125,7 +125,7 @@ nav ul li:hover a{
 }
 .none_block li a{
    text-decoration: none;
-   color: black !important;
+   color: black ;
    transition: all 0.3s;
    padding: 0;
    text-align: center;
@@ -611,7 +611,7 @@ main{
 }
 
 .chat button{
-    padding: 10px 25px;
+    padding: 13px 25px;
     border-radius: 30px;
     border: none;
     font-weight: 600;
@@ -693,4 +693,27 @@ footer{
 }
 .social a:hover{
     color: rgba(0, 0, 0, 0.7);
+}
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-thumb {
+    background: lightgray;
+    border-radius: 10px;
+}
+.burger_menu span ion-icon{
+    font-size: 40px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.burger_menu{
+    display: none;
+}
+.chat button span{
+    font-size: 24px;
+}
+.fl_lists{
+    display: flex;
+    width: 70%;
+    justify-content: space-evenly;
 }
