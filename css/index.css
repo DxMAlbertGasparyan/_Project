@@ -717,3 +717,7 @@ footer{
     width: 70%;
     justify-content: space-evenly;
 }
+.chat button span{
+    position: relative;
+    top:3px;
+}
