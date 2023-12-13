@@ -11,12 +11,22 @@
         font-size: 16px;
         word-wrap: none;
     }
+    .button_header{
+        padding: 0 !important;
+    }
+    .hContent{
+        position: static;
+    }
     .button_lang{
-        width: 80%;
-        
+        width: 70%;
+        justify-content: space-between;
+    }
+    .button_header{
+        padding: 0;
     }
     .logo_nav{
-        width: 20%;
+        width: 30%;
+        padding: 0 !important;
     }
     /* HEADER */
     /* MAIN */
@@ -28,39 +38,64 @@
         flex-direction: column;
         justify-content: center;
         padding-top: 150px;
+        max-width: 90%;
+        margin:auto
     }
     .text_content h1 span{
-        font-size: 40px;
+        font-size: 30px;
     }
     .text_content p{
-        font-size: 25px;
+        font-size: 20px;
         margin-top: 25px;
     }
     .text_content_btn{
+        width: 100%;
         display: flex;
         justify-content: center;
+        align-items: flex-start !important;
         margin-top: 60px;
+    }
+    .text_content_btn button{
+        margin: 0;
     }
     .header_item{
         height: 100%;
     }
     .slider{
         margin-top: 60px;
+        max-width:  90%;
+        border-radius: 30px;
+        background-position: center;
     }
     main{
         margin-top: 60px;
     }
     .items_container{
         overflow: auto;
+        gap: 15px
+        ;
     }
     .artist_img{
-        height: 100%;
+        width: 100%;
+        height: 100vh;
+        background: url("../images/197-13-pro---4-min.png");
+        background-size: cover;
+        background-repeat: no-repeat;
     }
-
+    .experience_heading h2{
+        font-size: 30px;
+        text-align: center;
+    }
     .artist_img img{
         width: 100%;
         height: 100vh;
         background-clip: content-box;
+    }
+    .artist_img{
+        padding: 0;
+        justify-content: center;
+        align-items: flex-start;
+        padding-top: 100px;
     }
     .nft_artist_items h2{
         font-size: 35px;
@@ -106,10 +141,16 @@
     }
     .second_child_items{
         display: flex;
-        width: 100%;
+        width: 95%;
         flex-direction: column;
-        justify-content: center;
+        justify-content: space-around;
         align-items: flex-start;
+    }
+    .second_child_items h4{
+        margin: 0;
+    }
+    .second_child_items p{
+        margin: 0;
     }
     .get_started_nft{
         height: 1610px;
@@ -122,8 +163,11 @@
         justify-content: space-around;
     }
     .item_images{
-        width: 100%;
+        width: 95%;
         height: 33.3%;
+    }
+    footer{
+        padding: 10px;
     }
     .footer{
         flex-direction: column;
@@ -135,10 +179,11 @@
         align-self: flex-start;
     }
     .fl_lists{
+        width: 100%;
         flex-wrap: wrap;
     }
     .logo_and_text{
-        align-self:center;
+        align-self:flex-start;
     }
     .marketplace_list{
         width: 50%;
@@ -162,5 +207,45 @@
     .rights{
         text-align: center;
         margin-top: 30px;
+    }
+    #span_chat{
+        display: none;
+    }
+    .chat button{
+        border-radius: 50%;
+        padding: 15px 20px;
+    }
+    .text_content_btn {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    #languages{
+        display: none;
+    }
+    .button_header{
+        padding: 0;
+    }
+    .bag_icon{
+        padding: 0 !important;
+    }
+    .apps_logo{
+        display: none;
+    }
+    .background-container{
+        max-width: 95%;
+        border-radius: 35px;
+        padding: 0;
+        height: 100vh;
+        background: url("../images/200-buy-nft-mob-min-2.png");
+        background-size: cover;
+        background-position: center;
+        align-items: flex-start;
+        justify-content: center;
+        padding-top: 100px;
+    }
+    .guide_heading h2{
+        text-align: center;
     }
 }

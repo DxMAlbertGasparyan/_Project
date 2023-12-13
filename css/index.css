@@ -20,7 +20,7 @@ header{
     z-index: 999;
 }
 .logo_nav{
-    width: 50%;
+    width: 70%;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -31,7 +31,7 @@ header{
     align-items: center;
 }
 .button_lang{
-    width: 50%;
+    width: 30%;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -165,7 +165,7 @@ nav ul li:hover>a{
     width: 100%;
     position: relative;
     height: 923px;
-    background: url("/images/r606-back-main-min.png");
+    background: url("../images/r606-back-main-min.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -310,13 +310,16 @@ main{
 .text h5{
     font-size: 16px;
 }
-.artist_img img{
+.artist_img{
     width: 100%;
-}
-.nft_artist_items{
-    position: absolute;
-    top: 30%;
-    left: 8%;
+    height: calc(100vh - 220px);
+    background: url("../images/r54-nft-artist-min.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    padding-left: 150px;
+    box-sizing: border-box;
 }
 .nft_artist_items h2{
     font-size: 50px;
@@ -438,14 +441,17 @@ main{
 }
 .background-container{
     max-width: 1600px;
+    height: calc(100vh - 340px);
+    background: url("../images/002880112466-buy-nft-min-4.png");
     margin: auto;
     position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
 }
-.buy_nft_content{
-    position: absolute;
-    top: 30%;
-    left: 5%;
-}
+
 .buy_nft_content h2{
     font-size: 47.36px;
     text-transform: capitalize;
@@ -618,6 +624,9 @@ main{
     font-size: 18px;
     background-color: rgb(255, 0, 140);
     cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
 }
 /* footer */
 footer{
@@ -719,5 +728,24 @@ footer{
 }
 .chat button span{
     position: relative;
-    top:3px;
+    top:3px; 
+}
+#span_chat{
+    font-weight: 600;
+    font-size: 18px;
+    position: static;
+}
+#new_year{
+    outline: 2px solid hotpink;
+    padding: 12px 12px 12px 12px;
+    border-radius: 10px;
+}
+#akneye,#help_center{
+    outline: 2px solid hotpink;
+    padding: 10px 0;
+    border-radius: 10px;
+    width: 100%;
+}
+.mg{
+    margin-bottom: 10px;
 }
