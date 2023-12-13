@@ -248,4 +248,12 @@
     .guide_heading h2{
         text-align: center;
     }
+    .links{
+        flex-direction: column;
+    }
+    .links a{
+        display: inline-block;
+        padding-top: 15px;
+        padding-left: 0;
+    }
 }
